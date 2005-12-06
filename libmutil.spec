@@ -3,6 +3,7 @@
 %bcond_without	static_libs	# don't build static library
 #
 Summary:	libmutil - different utilities classes for portable C++ development
+Summary(pl):	libmutil - ró¿ne klasy narzêdziowe do przeno¶nego programowania w C++
 Name:		libmutil
 Version:	0.3.0
 Release:	0.1
@@ -23,11 +24,17 @@ libmutil contains different classes useful for C++ programming, mostly
 string handling, cryptography and portable thread control. It is used
 by the minisip SIP user agent.
 
+%description -l pl
+Biblioteka libmutil zawiera ró¿ne klasy przydatne do programowania w
+C++, g³ównie obs³ugi ³añcuchów znaków, kryptografii i przeno¶nego
+sterowania w±tkami. Jest u¿ywana przez agenta SIP minisip.
+
 %package devel
 Summary:	Header files for libmutil library
 Summary(pl):	Pliki nag³ówkowe biblioteki libmutil
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
+Requires:	libstdc++-devel
 Requires:	openssl-devel >= 0.9.7d
 
 %description devel
