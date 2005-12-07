@@ -6,7 +6,7 @@ Summary:	libmutil - different utilities classes for portable C++ development
 Summary(pl):	libmutil - ró¿ne klasy narzêdziowe do przeno¶nego programowania w C++
 Name:		libmutil
 Version:	0.3.0
-Release:	0.1
+Release:	1
 License:	LGPL
 Group:		Libraries
 Source0:	http://www.minisip.org/source/%{name}-%{version}.tar.gz
