@@ -3,7 +3,7 @@
 %bcond_without	static_libs	# don't build static library
 #
 Summary:	libmutil - different utilities classes for portable C++ development
-Summary(pl):	libmutil - r�ne klasy narz�dziowe do przeno�nego programowania w C++
+Summary(pl.UTF-8):   libmutil - różne klasy narzędziowe do przenośnego programowania w C++
 Name:		libmutil
 Version:	0.3.0
 Release:	1
@@ -24,14 +24,14 @@ libmutil contains different classes useful for C++ programming, mostly
 string handling, cryptography and portable thread control. It is used
 by the minisip SIP user agent.
 
-%description -l pl
-Biblioteka libmutil zawiera r�ne klasy przydatne do programowania w
-C++, g��wnie obs�ugi �a�cuch�w znak�w, kryptografii i przeno�nego
-sterowania w�tkami. Jest u�ywana przez agenta SIP minisip.
+%description -l pl.UTF-8
+Biblioteka libmutil zawiera różne klasy przydatne do programowania w
+C++, głównie obsługi łańcuchów znaków, kryptografii i przenośnego
+sterowania wątkami. Jest używana przez agenta SIP minisip.
 
 %package devel
 Summary:	Header files for libmutil library
-Summary(pl):	Pliki nag��wkowe biblioteki libmutil
+Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki libmutil
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	libstdc++-devel
@@ -40,19 +40,19 @@ Requires:	openssl-devel >= 0.9.7d
 %description devel
 Header files for libmutil library.
 
-%description devel -l pl
-Pliki nag��wkowe biblioteki libmutil.
+%description devel -l pl.UTF-8
+Pliki nagłówkowe biblioteki libmutil.
 
 %package static
 Summary:	Static libmutil library
-Summary(pl):	Statyczna biblioteka libmutil
+Summary(pl.UTF-8):   Statyczna biblioteka libmutil
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static libmutil library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka libmutil.
 
 %prep
