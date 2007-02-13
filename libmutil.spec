@@ -3,7 +3,7 @@
 %bcond_without	static_libs	# don't build static library
 #
 Summary:	libmutil - different utilities classes for portable C++ development
-Summary(pl.UTF-8):   libmutil - różne klasy narzędziowe do przenośnego programowania w C++
+Summary(pl.UTF-8):	libmutil - różne klasy narzędziowe do przenośnego programowania w C++
 Name:		libmutil
 Version:	0.3.0
 Release:	1
@@ -31,7 +31,7 @@ sterowania wątkami. Jest używana przez agenta SIP minisip.
 
 %package devel
 Summary:	Header files for libmutil library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki libmutil
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki libmutil
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	libstdc++-devel
@@ -45,7 +45,7 @@ Pliki nagłówkowe biblioteki libmutil.
 
 %package static
 Summary:	Static libmutil library
-Summary(pl.UTF-8):   Statyczna biblioteka libmutil
+Summary(pl.UTF-8):	Statyczna biblioteka libmutil
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
